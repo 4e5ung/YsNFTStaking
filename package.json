@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "node": "npx hardhat node --port 8559 --hostname 192.168.0.227",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "hardhat": "^2.9.5"
+  },
+  "dependencies": {
+    "@anders-t/ethers-ledger": "^1.0.4",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethjs-abi": "^0.2.1",
+    "hardhat-abi-exporter": "^2.10.0",
+    "hardhat-contract-sizer": "^2.6.1",
+    "solidity-coverage": "^0.8.1",
+    "solidity-docgen": "^0.6.0-beta.25"
+  }
+}
